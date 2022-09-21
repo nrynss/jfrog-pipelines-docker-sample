@@ -42,9 +42,9 @@ apt-get update -qq
 apt-get install -y -q git="$GIT_VERSION"
 
 
-JFROG_VERSION=1.33.2
+#JFROG_VERSION=1.33.2
 echo "================= Adding jfrog-cli $JFROG_VERSION  ================"
-curl -fL https://getcli.jfrog.io | bash -s v2
+curl -fL https://getcli.jfrog.io/v2 | bash -s
 sudo chmod +x jfrog
 mv jfrog /usr/bin/jfrog
 
