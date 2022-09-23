@@ -48,4 +48,4 @@ curl -fL https://getcli.jfrog.io/v2 | bash -s
 sudo chmod +x jfrog
 sudo rm /usr/bin/jfrog
 mv jfrog /usr/bin/jfrog
-
+jfrog --version
